@@ -4,8 +4,13 @@
 }
 
 .menu {
+  position: absolute;
+  top: -56px;
+  right: 51px;
+  font-size: 24px;
   display: flex;
   transition: all 0.2s;
+  position: absolute;
 
   a {
     padding: 20px;
@@ -41,4 +46,21 @@
   @media (max-width: 600px) {
     display: inline-block;
   }
+}
+
+
+.footer {
+  background-color:#0A0909;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: auto;
+  height: 400px
+}
+
+.footer-text {
+  font-family: Poppins;
+  color: white;
+  font-size: 24px;
+ 
 }

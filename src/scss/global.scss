@@ -13,6 +13,9 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
 }
 
 h1 {
@@ -52,3 +55,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+

@@ -14,13 +14,13 @@ function App() {
       <header className="header">
         <nav className={`menu ${showMobileMenu ? "menu--show" : ""}`}>
           <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/projects">Projects1</Link>
-          <Link to="/projects">Projects2</Link>
-          <Link to="/projects">Projects3</Link>
+          <Link to="/projectalpha"> Alpha</Link>
+          <Link to="/projectbeta"> Beta</Link>
+          <Link to="/projectgamma"> Gamma</Link>
+          <Link to="/contact">Contact</Link>
           <button className="menu__close" onClick={handleShowMenuClick}>
             X
-          </button>
+          </button>  
         </nav>
         <button className="show-menu" onClick={handleShowMenuClick}>
           Menu
@@ -28,8 +28,11 @@ function App() {
       </header>
 
       <Outlet />
-      <footer className="read-the-docs">My footer </footer>
-    </>
+
+      <footer className="footer">
+        <p className="footer-text">Pablo Cortés, 2023</p>
+    </footer>   
+     </>
   );
 }
 

@@ -1,8 +1,8 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import App from "./App";
-import Landing from "./views/landing/Landing";
-import Projects from "./views/projects/Projects";
+import Alpha from "./views/projectalpha/Alpha";
+import Gamma from "./views/projectgamma/Gamma";
 import "./index.scss";
 
 const router = createBrowserRouter([
